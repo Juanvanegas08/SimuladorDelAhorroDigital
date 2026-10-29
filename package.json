@@ -1,0 +1,20 @@
+{
+  "name": "brote-ahorro-digital",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/*", "services/*", "packages/*"],
+  "scripts": {
+    "dev": "node scripts/run.mjs dev",
+    "dev:shell": "next dev --hostname 127.0.0.1 --port 3000",
+    "build": "node scripts/build.mjs",
+    "build:shell": "next build",
+    "start": "node scripts/run.mjs start",
+    "start:shell": "next start --hostname 127.0.0.1 --port 3000",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build --workspace @brote/contracts && tsx --test tests/*.test.ts",
+    "test:integration": "node scripts/integration.mjs"
+  },
+  "dependencies": {"@brote/contracts": "1.0.0", "next": "16.4.3", "react": "^19.2.0", "react-dom": "^19.2.0"},
+  "devDependencies": {"typescript": "^5.9.0", "@types/node": "^24.0.0", "@types/react": "^19.2.0", "@types/react-dom": "^19.2.0", "tsx": "^4.20.0"},
+  "engines": {"node": ">=20.9.0"}
+}

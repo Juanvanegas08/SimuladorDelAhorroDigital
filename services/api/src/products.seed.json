@@ -1,0 +1,5 @@
+[
+  {"id":"libre", "name":"Ahorro Libre", "type":"Flexible", "rate":7.5, "minimum":0, "description":"Tu dinero disponible para lo que necesites. Ahorra a tu ritmo, sin monto mínimo.", "tag":"Para tu día a día", "icon":"sun", "color":"mint", "features":["Sin cuota de manejo", "Disponibilidad inmediata", "Sin saldo mínimo"]},
+  {"id":"metas", "name":"Ahorro con Metas", "type":"Programado", "rate":9.2, "minimum":50000, "description":"Ese viaje, tu próximo proyecto o un nuevo comienzo. Dale un propósito a cada aporte.", "tag":"Un paso más cerca", "icon":"flag", "color":"peach", "features":["Aportes a tu medida", "Seguimiento de tu meta", "Desde $50.000"]},
+  {"id":"futuro", "name":"Ahorro Futuro", "type":"Largo plazo", "rate":10.5, "minimum":200000, "description":"Dale tiempo a tus planes. Una opción para quienes quieren construir con constancia.", "tag":"Piensa en grande", "icon":"plant", "color":"lavender", "features":["Tasa de ejemplo preferencial", "Horizonte de largo plazo", "Desde $200.000"]}
+]

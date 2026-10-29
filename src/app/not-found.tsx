@@ -1,0 +1,1 @@
+export default function NotFound() { return <section className="container page-section empty-state"><span className="eyebrow">404</span><h1 className="page-title">Este camino aún no ha brotado.</h1><p>Vuelve a nuestros productos para seguir explorando.</p><a className="button" href="/products">Ver productos</a></section>; }
